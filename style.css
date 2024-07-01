@@ -1,0 +1,19 @@
+@import url('./clean.css');
+
+.full__wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.ava__wrapper {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.ava {
+	height: 100%;
+	position: relative;
+	left: -25%;
+}
