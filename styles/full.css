@@ -1,0 +1,50 @@
+.full__background {
+	background-color: #fff;
+	position: relative;
+}
+
+.full__background::before {
+	position: absolute;
+	content: '';
+	top: 0;
+	right: 50%;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient(to bottom, #FFC803, #00C2FF, #24CE85, #BDFF00, #00FF38, #FF7816);
+	opacity: .7;
+}
+
+.full__wrapper {
+	max-width: 1100px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.left__wrapper {
+	width: 410px;
+	padding-left: 45px;
+	padding-right: 45px;
+	z-index: 1;
+}
+
+.right__wrapper {
+	flex: 1;
+	background: #fff;
+	z-index: 1;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;	
+	font-weight: bold;
+	font-size: 23px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.left__line {
+	width: 230px;
+	height: 1px;
+	background-color: #000;
+	margin: 0 auto 41px;
+}

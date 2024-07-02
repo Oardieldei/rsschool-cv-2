@@ -1,0 +1,13 @@
+.ava__wrapper {
+	width: 240px;
+	height: 240px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 90px auto 60px;
+}
+
+.ava {
+	height: 100%;
+	position: relative;
+	left: -25%;
+}
