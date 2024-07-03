@@ -100,3 +100,23 @@
 .circle_meme circle {
 	stroke-dashoffset: calc(157 - (157 * 90) / 100);
 }
+
+.circle_vsc circle {
+	stroke-dashoffset: calc(157 - (157 * 70) / 100);
+}
+
+.circle_figma circle {
+	stroke-dashoffset: calc(157 - (157 * 85) / 100);
+}
+
+.circle_cw circle {
+	stroke-dashoffset: calc(157 - (157 * 40) / 100);
+}
+
+.circle_dt circle {
+	stroke-dashoffset: calc(157 - (157 * 25) / 100);
+}
+
+.circle_google circle {
+	stroke-dashoffset: calc(157 - (157 * 99) / 100);
+}
