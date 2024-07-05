@@ -4,6 +4,7 @@
 	border-radius: 50%;
 	overflow: hidden;
 	margin: 90px auto 60px;
+	display: block;
 }
 
 .ava {

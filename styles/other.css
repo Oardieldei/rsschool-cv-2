@@ -1,0 +1,17 @@
+.other__wrapper,
+.hobbies__wrapper {
+	margin-bottom: 41px;
+}
+
+.oh__list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	align-items: center;
+	padding-top: 17px;
+}
+
+.oh__item {
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+}
