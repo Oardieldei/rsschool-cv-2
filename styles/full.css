@@ -33,6 +33,12 @@
 	z-index: 1;
 }
 
+.right__wrapper_center {
+	width: 560px;
+	margin: 0 auto;
+	position: relative;
+}
+
 h2 {
 	text-transform: uppercase;
 	font-family: 'Poppins', sans-serif;	

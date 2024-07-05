@@ -4,6 +4,7 @@
 	border: 0;
 	user-select: none;
 	color: black;
+	scroll-behavior: smooth;
 }
 
 *, 
