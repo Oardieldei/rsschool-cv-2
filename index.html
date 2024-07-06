@@ -277,7 +277,7 @@
 						</nav>
 					</header>
 					<main id="wh">
-						<div class="whistory__wrapper">
+						<section class="whistory__wrapper">
 							<h3 class="whistory__title">Work history</h3>
 							<div class="right-item__wrapper">
 								<h4 class="right-item__title">
@@ -385,8 +385,8 @@
 									</ul>
 								</div>
 							</div>
-						</div>
-						<div class="shistory__wrapper">
+						</section>
+						<section class="shistory__wrapper">
 							<h3 class="shistory__title">Education history</h3>
 							<div class="right-item__wrapper">
 								<h4 class="right-item__title">
@@ -411,7 +411,8 @@
 									2006 – 2008
 								</p>								
 							</div>
-							<div class="right__line"></div><div class="right-item__wrapper">
+							<div class="right__line"></div>
+							<div class="right-item__wrapper">
 								<h4 class="right-item__title">
 									Secondary education
 								</h4>
@@ -422,7 +423,8 @@
 									2005 – 2006
 								</p>								
 							</div>
-							<div class="right__line"></div><div class="right-item__wrapper">
+							<div class="right__line"></div>
+							<div class="right-item__wrapper">
 								<h4 class="right-item__title">
 									Secondary education
 								</h4>
@@ -433,7 +435,8 @@
 									2004 – 2005
 								</p>								
 							</div>
-							<div class="right__line"></div><div class="right-item__wrapper">
+							<div class="right__line"></div>
+							<div class="right-item__wrapper">
 								<h4 class="right-item__title">
 									Secondary education
 								</h4>
@@ -444,7 +447,8 @@
 									2003 – 2004
 								</p>								
 							</div>
-							<div class="right__line"></div><div class="right-item__wrapper">
+							<div class="right__line"></div>
+							<div class="right-item__wrapper">
 								<h4 class="right-item__title">
 									Secondary education
 								</h4>
@@ -455,7 +459,8 @@
 									2002 – 2003
 								</p>								
 							</div>
-							<div class="right__line"></div><div class="right-item__wrapper">
+							<div class="right__line"></div>
+							<div class="right-item__wrapper">
 								<h4 class="right-item__title">
 									Secondary education
 								</h4>
@@ -477,7 +482,23 @@
 									1997 – 2000
 								</p>								
 							</div>
-						</div>
+						</section>
+						<section class="code__wrapper">
+							<h3 class="code__title">Code example</h3>
+							<pre class="code__content">const rgb = (r, g, b) => {
+	let arr = []
+	r > 255 ? arr.push(255) : r < 0 ? arr.push(0) : arr.push(r)
+	g > 255 ? arr.push(255) : g < 0 ? arr.push(0) : arr.push(g)
+	b > 255 ? arr.push(255) : b < 0 ? arr.push(0) : arr.push(b)
+									
+	arr.forEach((x, i) => {    
+		arr[i] = x.toString(16).toUpperCase()
+		if (arr[i].length == 1) arr[i] = '0' +arr[i]
+	})
+								
+	return arr.join('')
+}</pre>
+						</section>
 					</main>
 					<footer>
 

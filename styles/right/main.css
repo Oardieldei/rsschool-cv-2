@@ -78,3 +78,10 @@ h3 {
 	text-align: justify;
 	line-height: 1.2;
 }
+
+.code__content {
+	padding: 20px 30px;
+	background-color: #ff990041;
+	box-shadow: inset 0 0 10px 10px #fff;
+	border-radius: 8px;
+}
