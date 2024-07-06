@@ -1,0 +1,19 @@
+.footer__wrapper {
+	width: 560px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 10px;
+	gap: 5px;
+}
+
+.footer__wrapper img {
+	height: 30px;
+	width: auto;
+	transition: .3s;
+}
+
+.footer__wrapper img:hover {
+	transform: scale(1.05, 1.05);
+}
