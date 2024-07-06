@@ -1,0 +1,122 @@
+:root {
+  --item-circle-size: 60px;
+}
+
+.tools__wrapper,
+.skills__wrapper {
+	margin-bottom: 41px;
+}
+
+.st__title {
+	margin-bottom: 25px;
+}
+
+.st__items {
+	padding: 31px 10px;
+	background-color: #ffffff81;
+	border-radius: 24px;
+	box-shadow: 0 6px 6px rgba(0, 0, 0, .5);
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	justify-content: center;
+}
+
+.st__item__wrapper {
+	width: var(--item-circle-size);
+	height: 84px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.st__item_circle,
+.st__item_inside {
+	border-radius: 50%;
+}
+
+.st__item_circle {
+	width: var(--item-circle-size);
+	height: var(--item-circle-size);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.st__item_circle_color {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	transform: rotate(-85deg);
+}
+
+.st__item_circle_color > circle {
+	z-index: 0;
+	fill: none;
+	stroke: #3B5999;
+	stroke-width: 5;
+  stroke-linecap: round;
+	stroke-dasharray: 157;		
+}
+
+.st__item_inside {
+	width: 80%;
+	height: 80%;
+	background-color: #e4e4e4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.st__item_image {
+	width: auto;
+	height: 30px;
+}
+
+.st__item_text {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.circle_html circle {
+	stroke-dashoffset: calc(157 - (157 * 95) / 100);
+}
+
+.circle_css circle {
+	stroke-dashoffset: calc(157 - (157 * 85) / 100);
+}
+
+.circle_js circle {
+	stroke-dashoffset: calc(157 - (157 * 40) / 100);
+}
+
+.circle_ts circle {
+	stroke-dashoffset: calc(157 - (157 * 10) / 100);
+}
+
+.circle_meme circle {
+	stroke-dashoffset: calc(157 - (157 * 90) / 100);
+}
+
+.circle_vsc circle {
+	stroke-dashoffset: calc(157 - (157 * 70) / 100);
+}
+
+.circle_figma circle {
+	stroke-dashoffset: calc(157 - (157 * 85) / 100);
+}
+
+.circle_cw circle {
+	stroke-dashoffset: calc(157 - (157 * 40) / 100);
+}
+
+.circle_dt circle {
+	stroke-dashoffset: calc(157 - (157 * 25) / 100);
+}
+
+.circle_google circle {
+	stroke-dashoffset: calc(157 - (157 * 99) / 100);
+}

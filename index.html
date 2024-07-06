@@ -1,16 +1,557 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./styles/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+		rel="stylesheet">
 	<title>My CV</title>
 </head>
+
 <body>
-	<div class="full__wrapper">
-		<div class="ava__wrapper">
-			<img src="./ava.jpg" alt="" class="ava">
+	<div class="full__background">
+		<div class="full__wrapper">
+			<div class="left__wrapper">
+				<a class="ava__wrapper" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+					<img src="./img/ava.jpg" alt="" class="ava">
+				</a>
+				<h1 class="name__wrapper">
+					<span class="name__first">
+						Alik
+					</span>
+					<span class="name__second">
+						Razymov
+					</span>
+				</h1>
+				<p class="profession">
+					I will become a web developer!
+				</p>
+				<h2 class="profile__title">
+					Profile
+				</h2>
+				<p class="profile__text">
+					I am persistent and ambitious. I want to complete the course, so I will do it. I started before, but due to
+					life circumstances I was unable to finish. so what? I'm not afraid of failure. I'm afraid to stop trying. Good
+					luck completing this course! I hope you can handle it. And if it gets difficult, contact me. I will help in
+					any way I can.
+				</p>
+				<div class="left__line" id="contacts"></div>
+				<ul class="contacts__wrapper">
+					<li class="contact">
+						<p class="contact__title">Telegram</p>
+						<a href="https://t.me/oardieldei" class="contact__link" target="_blank">Oardieldei</a>
+					</li>
+					<li class="contact">
+						<p class="contact__title">Discord</p>
+						<a href="https://discordapp.com/users/330349425421713408/" class="contact__link" target="_blank">Alik</a>
+					</li>
+					<li class="contact">
+						<p class="contact__title">City</p>
+						<a href="https://www.google.com/maps/@53.9079399,27.5533142,3a,75y,296.76h,66.11t/data=!3m8!1e1!3m6!1sAF1QipND7B4oyBvSAip1j8XgrkQ6dFSPseL63aOLWHK8!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipND7B4oyBvSAip1j8XgrkQ6dFSPseL63aOLWHK8%3Dw900-h600-k-no-pi23.886470142985345-ya296.76464498615803-ro0-fo90!7i8192!8i4096?coh=205410&entry=ttu"
+							class="contact__link" target="_blank">Minsk, Belarus</a>
+					</li>
+				</ul>
+				<div class="left__line"></div>
+				<div class="laguages__wrapper">
+					<h2 class="languages__title">Languages</h2>
+					<ul class="languages">
+						<li class="language">
+							<p class="language__name">Russian</p>
+							<div class="laguage__stars">
+								<img src="./img/star.svg" alt="" class="language__star">
+								<img src="./img/star.svg" alt="" class="language__star">
+								<img src="./img/star.svg" alt="" class="language__star">
+								<img src="./img/star.svg" alt="" class="language__star">
+								<img src="./img/star.svg" alt="" class="language__star">
+							</div>
+						</li>
+						<li class="language">
+							<p class="language__name">English</p>
+							<div class="laguage__stars">
+								<img src="./img/star.svg" alt="" class="language__star">
+								<img src="./img/star.svg" alt="" class="language__star">
+								<img src="./img/star.svg" alt="" class="language__star">
+								<img src="./img/star.svg" alt="" class="language__star">
+							</div>
+						</li>
+						<li class="language">
+							<p class="language__name">Belarusian</p>
+							<div class="laguage__stars">
+								<img src="./img/star.svg" alt="" class="language__star">
+								<img src="./img/star.svg" alt="" class="language__star">
+							</div>
+						</li>
+						<li class="language">
+							<p class="language__name">Ukrainian</p>
+							<div class="laguage__stars">
+								<img src="./img/star.svg" alt="" class="language__star">
+								<img src="./img/star.svg" alt="" class="language__star">
+								<img src="./img/star.svg" alt="" class="language__star">
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="left__line" id="skills"></div>
+				<div class="skills__wrapper">
+					<h2 class="st__title">Skills</h2>
+					<ul class="st__items">
+						<li class="st__item__wrapper">
+							<div class="st__item_circle circle_html">
+								<svg class="st__item_circle_color">
+									<circle cx="30" cy="30" r="26"></circle>
+								</svg>
+								<div class="st__item_inside">
+									<img src="./img/html.png" alt="" class="st__item_image">
+								</div>
+							</div>
+							<p class="st__item_text">
+								HTML
+							</p>
+						</li>
+						<li class="st__item__wrapper">
+							<div class="st__item_circle circle_css">
+								<svg class="st__item_circle_color">
+									<circle cx="30" cy="30" r="26"></circle>
+								</svg>
+								<div class="st__item_inside">
+									<img src="./img/css.png" alt="" class="st__item_image">
+								</div>
+							</div>
+							<p class="st__item_text">
+								CSS
+							</p>
+						</li>
+						<li class="st__item__wrapper">
+							<div class="st__item_circle circle_js">
+								<svg class="st__item_circle_color">
+									<circle cx="30" cy="30" r="26"></circle>
+								</svg>
+								<div class="st__item_inside">
+									<img src="./img/js.png" alt="" class="st__item_image">
+								</div>
+							</div>
+							<p class="st__item_text">
+								JavaScript
+							</p>
+						</li>
+						<li class="st__item__wrapper">
+							<div class="st__item_circle circle_ts">
+								<svg class="st__item_circle_color">
+									<circle cx="30" cy="30" r="26"></circle>
+								</svg>
+								<div class="st__item_inside">
+									<img src="./img/ts.png" alt="" class="st__item_image">
+								</div>
+							</div>
+							<p class="st__item_text">
+								TypeScript
+							</p>
+						</li>
+						<li class="st__item__wrapper">
+							<div class="st__item_circle circle_meme">
+								<svg class="st__item_circle_color">
+									<circle cx="30" cy="30" r="26"></circle>
+								</svg>
+								<div class="st__item_inside">
+									<img src="./img/meme.png" alt="" class="st__item_image">
+								</div>
+							</div>
+							<p class="st__item_text">
+								Memes
+							</p>
+						</li>
+					</ul>
+				</div>
+				<div class="left__line"></div>
+				<div class="tools__wrapper">
+					<h2 class="st__title">Tools</h2>
+					<ul class="st__items">
+						<li class="st__item__wrapper">
+							<div class="st__item_circle circle_vsc">
+								<svg class="st__item_circle_color">
+									<circle cx="30" cy="30" r="26"></circle>
+								</svg>
+								<div class="st__item_inside">
+									<img src="./img/vsc.png" alt="" class="st__item_image">
+								</div>
+							</div>
+							<p class="st__item_text">
+								VSCode
+							</p>
+						</li>
+						<li class="st__item__wrapper">
+							<div class="st__item_circle circle_figma">
+								<svg class="st__item_circle_color">
+									<circle cx="30" cy="30" r="26"></circle>
+								</svg>
+								<div class="st__item_inside">
+									<img src="./img/figma.png" alt="" class="st__item_image">
+								</div>
+							</div>
+							<p class="st__item_text">
+								Figma
+							</p>
+						</li>
+						<li class="st__item__wrapper">
+							<div class="st__item_circle circle_cw">
+								<svg class="st__item_circle_color">
+									<circle cx="30" cy="30" r="26"></circle>
+								</svg>
+								<div class="st__item_inside">
+									<img src="./img/codewars.svg" alt="" class="st__item_image">
+								</div>
+							</div>
+							<p class="st__item_text">
+								Codewars
+							</p>
+						</li>
+						<li class="st__item__wrapper">
+							<div class="st__item_circle circle_dt">
+								<svg class="st__item_circle_color">
+									<circle cx="30" cy="30" r="26"></circle>
+								</svg>
+								<div class="st__item_inside">
+									<img src="./img/chrome.png" alt="" class="st__item_image">
+								</div>
+							</div>
+							<p class="st__item_text">
+								DevTools
+							</p>
+						</li>
+						<li class="st__item__wrapper">
+							<div class="st__item_circle circle_google">
+								<svg class="st__item_circle_color">
+									<circle cx="30" cy="30" r="26"></circle>
+								</svg>
+								<div class="st__item_inside">
+									<img src="./img/google.png" alt="" class="st__item_image">
+								</div>
+							</div>
+							<p class="st__item_text">
+								Google
+							</p>
+						</li>
+					</ul>
+				</div>
+				<div class="left__line"></div>
+				<div class="other__wrapper">
+					<h2 class="oh__title">Other skills</h2>
+					<ul class="oh__list">
+						<li class="oh__item">Data analysis</li>
+						<li class="oh__item">Product management</li>
+						<li class="oh__item">QA testing</li>
+						<li class="oh__item">ORM</li>
+						<li class="oh__item">Social media management</li>
+						<li class="oh__item">Crowd marketing</li>
+					</ul>
+				</div>
+				<div class="left__line"></div>
+				<div class="hobbies__wrapper">
+					<h2 class="oh__title">Hobbies</h2>
+					<ul class="oh__list">
+						<li class="oh__item">Photography</li>
+						<li class="oh__item">Walking</li>
+						<li class="oh__item">Movies</li>
+						<li class="oh__item">Introspection</li>
+						<li class="oh__item">Physical exercise</li>
+						<li class="oh__item">Sex</li>
+					</ul>
+				</div>
+			</div>
+			<div class="right__wrapper">
+				<div class="right__wrapper_center">
+					<header>
+						<nav>
+							<ul class="nav__list">
+								<li class="nav__item"><a href="#contacts" class="nav__item_link">Contacts</a></li>
+								<li class="nav__item"><a href="#skills" class="nav__item_link">Skills</a></li>
+								<li class="nav__item"><a href="#wh" class="nav__item_link">Work history</a></li>
+								<li class="nav__item"><a href="#code" class="nav__item_link">Code example</a></li>
+								<li class="nav__item"><a href="#projects" class="nav__item_link">Projects</a></li>
+							</ul>
+						</nav>
+					</header>
+					<main id="wh">
+						<section class="whistory__wrapper">
+							<h3 class="whistory__title">Work history</h3>
+							<div class="right-item__wrapper">
+								<h4 class="right-item__title">
+									Product manager
+								</h4>
+								<h5 class="right-item__place">
+									Argon Labs
+								</h5>
+								<p class="right-item__date">
+									2019 – Till date
+								</p>
+								<div class="right-item__info">
+									<p class="right-item__info_title">Role description</p>
+									<ul class="right-item__info_list">
+										<li class="right-item__info_list_item">
+											ORM. It includes collecting information about the reputation of a company or product on the
+											Internet, analyzing the data obtained, identifying the highest priority areas for improving
+											reputation, drawing up a strategy and implementing changes.
+										</li>
+										<li class="right-item__info_list_item">
+											Testing. Checking new versions of programs, applications and websites for compliance with the
+											declared functionality, for compliance with the behavior expected by the user. Formatting and
+											structuring data for transferring it to developers.
+										</li>
+										<li class="right-item__info_list_item">
+											Research and data analytics. Search and determination of the most suitable tools and methods to
+											implement the necessary tasks. Preparation of reports with brief results of the work performed,
+											tests performed, compared information and reasons for determining the best positions.
+										</li>
+										<li class="right-item__info_list_item">
+											SEO. Using tools to analyze the site, develop strategies for improving performance, implement
+											changes and compare results.
+										</li>
+										<li class="right-item__info_list_item">
+											Maintaining social networks. Registration of accounts, design and writing of texts for accounts.
+											Posting planning, composing posts based on the characteristics of the social network, publication.
+											Communication with users, control of comments, responses and assistance to users.
+										</li>
+										<li class="right-item__info_list_item">
+											Distribution and PR. Finding places and ways to increase the popularity of the brand and services.
+											Selection of necessary criteria and changes for successful publication and/or moderation.
+											Communication with webmasters, analysis of portals, increasing audience coverage.
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="right__line"></div>
+							<div class="right-item__wrapper">
+								<h4 class="right-item__title">
+									Copywriter
+								</h4>
+								<h5 class="right-item__place">
+									Slots com.ua
+								</h5>
+								<p class="right-item__date">
+									2018 – 2019
+								</p>
+								<div class="right-item__info">
+									<p class="right-item__info_title">Role description</p>
+									<ul class="right-item__info_list">
+										<li class="right-item__info_list_item">
+											Writing descriptions. Writing texts according to a given description that meets the requirements.
+											Design of meta tags, implementation of keys, control and planning of publications.
+										</li>
+										<li class="right-item__info_list_item">
+											Writing articles. Searching for topics, drawing up a strategy for publications, implementing
+											keywords, designing meta tags. Finding information for an article, fact-checking, writing an
+											outline and using all materials for writing.
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="right__line"></div>
+							<div class="right-item__wrapper">
+								<h4 class="right-item__title">
+									Journalist
+								</h4>
+								<h5 class="right-item__place">
+									Office Life
+								</h5>
+								<p class="right-item__date">
+									2017 – 2018
+								</p>
+								<div class="right-item__info">
+									<p class="right-item__info_title">Role description</p>
+									<ul class="right-item__info_list">
+										<li class="right-item__info_list_item">
+											Search for topics for an article. Research of digital resources in order to find topics of
+											interest to users. Analysis of trends, control over the posting of opinion leaders. Preparing a
+											plan.
+										</li>
+										<li class="right-item__info_list_item">
+											Fact checking. Checking information, contacting experts, searching for confirmation or refutation.
+											Finding multiple sources of confirmation.
+										</li>
+										<li class="right-item__info_list_item">
+											Interview. Communication with event participants or experts. Finding a way to communicate,
+											preparing questions and a conversation plan, conducting a conversation and finding out
+											information. Formation of the outcome of the conversation for the article.
+										</li>
+										<li class="right-item__info_list_item">
+											Writing an article. Using all the data and all the information received, compiling a text based on
+											the interests of the target audience.
+										</li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section class="shistory__wrapper">
+							<h3 class="shistory__title">Education history</h3>
+							<div class="right-item__wrapper">
+								<h4 class="right-item__title">
+									Technician-programmer
+								</h4>
+								<h5 class="right-item__place">
+									MRK BSUIR
+								</h5>
+								<p class="right-item__date">
+									2016 – 2021
+								</p>								
+							</div>
+							<div class="right__line"></div>
+							<div class="right-item__wrapper">
+								<h4 class="right-item__title">
+									Secondary education
+								</h4>
+								<h5 class="right-item__place">
+									Lyceum #1 (Minsk)
+								</h5>
+								<p class="right-item__date">
+									2006 – 2008
+								</p>								
+							</div>
+							<div class="right__line"></div>
+							<div class="right-item__wrapper">
+								<h4 class="right-item__title">
+									Secondary education
+								</h4>
+								<h5 class="right-item__place">
+									School #9 (Minsk)
+								</h5>
+								<p class="right-item__date">
+									2005 – 2006
+								</p>								
+							</div>
+							<div class="right__line"></div>
+							<div class="right-item__wrapper">
+								<h4 class="right-item__title">
+									Secondary education
+								</h4>
+								<h5 class="right-item__place">
+									Lyceum #1 (Minsk)
+								</h5>
+								<p class="right-item__date">
+									2004 – 2005
+								</p>								
+							</div>
+							<div class="right__line"></div>
+							<div class="right-item__wrapper">
+								<h4 class="right-item__title">
+									Secondary education
+								</h4>
+								<h5 class="right-item__place">
+									School #136 (Minsk)
+								</h5>
+								<p class="right-item__date">
+									2003 – 2004
+								</p>								
+							</div>
+							<div class="right__line"></div>
+							<div class="right-item__wrapper">
+								<h4 class="right-item__title">
+									Secondary education
+								</h4>
+								<h5 class="right-item__place">
+									School #7 (Kyiv)
+								</h5>
+								<p class="right-item__date">
+									2002 – 2003
+								</p>								
+							</div>
+							<div class="right__line"></div>
+							<div class="right-item__wrapper">
+								<h4 class="right-item__title">
+									Secondary education
+								</h4>
+								<h5 class="right-item__place">
+									Gymnasium #13 (Minsk)
+								</h5>
+								<p class="right-item__date">
+									2000 – 2002
+								</p>								
+							</div>
+							<div class="right__line"></div>
+							<div class="right-item__wrapper">
+								<h4 class="right-item__title">
+									Elementary education
+								</h4>
+								<h5 class="right-item__place">
+									Gymnasium #16 (Minsk)
+								</h5>
+								<p class="right-item__date">
+									1997 – 2000
+								</p>								
+							</div>
+						</section>
+						<section class="code__wrapper"  id="code">
+							<h3 class="code__title">Code example</h3>
+							<pre class="code__content">const rgb = (r, g, b) => {
+	let arr = []
+	r > 255 ? arr.push(255) : r < 0 ? arr.push(0) : arr.push(r)
+	g > 255 ? arr.push(255) : g < 0 ? arr.push(0) : arr.push(g)
+	b > 255 ? arr.push(255) : b < 0 ? arr.push(0) : arr.push(b)
+									
+	arr.forEach((x, i) => {    
+		arr[i] = x.toString(16).toUpperCase()
+		if (arr[i].length == 1) arr[i] = '0' +arr[i]
+	})
+								
+	return arr.join('')
+}</pre>
+						</section>
+						<section class="projects__wrapper" id="projects">
+							<h3 class="projects__title">Projects</h3>
+							<ul class="projects__list">
+								<li class="projects__project">
+									<a href="https://funny-torte-e66268.netlify.app/" class="projects__project_link" target="_blank">
+										<img src="./img/momentum.jpg" alt="" class="projects__project_img">
+									</a>
+								</li>
+								<li class="projects__project">
+									<a href="https://oardieldei.github.io/eldritch-codejam/my-app/" class="projects__project_link" target="_blank">
+										<img src="./img/eldritch.jpg" alt="" class="projects__project_img">
+									</a>
+								</li>
+								<li class="projects__project">
+									<a href="https://perfectri.netlify.app/" class="projects__project_link" target="_blank">
+										<img src="./img/perfectri.jpg" alt="" class="projects__project_img">
+									</a>
+								</li>
+								<li class="projects__project">
+									<a href="https://oardieldei.github.io/rsschool-cv-old/" class="projects__project_link" target="_blank">
+										<img src="./img/old-cv.jpg" alt="" class="projects__project_img">
+									</a>
+								</li>
+								<li class="projects__project">
+									<a href="https://oardieldei.github.io/cssBayan/cssBayan/" class="projects__project_link" target="_blank">
+										<img src="./img/bayan-css.jpg" alt="" class="projects__project_img">
+									</a>
+								</li>
+								<li class="projects__project">
+									<a href="https://oardieldei.github.io/cssMemeSlider/cssMemeSlider/" class="projects__project_link" target="_blank">
+										<img src="./img/slider-css.jpg" alt="" class="projects__project_img">
+									</a>
+								</li>
+							</ul>
+						</section>
+						<div class="right__line"></div>
+					</main>
+					<footer>
+						<div class="footer__wrapper">
+							<span>2024</span>
+							<a href="https://github.com/Oardieldei" class="footer__gh_link" target="_blank">
+								<img src="./img/gh.png" alt="" class="footer__gh_img">
+							</a>
+							<a href="https://rs.school/courses/javascript-ru" class="footer__rss_link" target="_blank">
+								<img src="./img/rs-school.svg" alt="" class="footer__rss_img">
+							</a>
+						</div>
+					</footer>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>
+
 </html>
