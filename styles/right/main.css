@@ -84,4 +84,39 @@ h3 {
 	background-color: #ff990041;
 	box-shadow: inset 0 0 10px 10px #fff;
 	border-radius: 8px;
+	margin-bottom: 30px;
+}
+
+.projects__list {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+.projects__project_link {
+	display: flex;
+	width: 150px;
+	height: 150px;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.projects__project_img {
+	height: 100%;
+	width: auto;
+}
+
+.projects__project {
+	transition: .3s;
+}
+
+.projects__project:hover {
+	transform: scale(1.05, 1.05);
+}
+
+.projects__wrapper {
+	margin-bottom: 30px;
 }
