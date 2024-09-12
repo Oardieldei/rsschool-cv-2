@@ -1,0 +1,35 @@
+.laguages__wrapper {
+	width: 280px;
+	margin: 0 auto 41px;
+}
+
+.languages__title {
+	margin-bottom: 25px;	
+}
+
+.language__name {
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	width: 88px;
+}
+
+.languages {
+	display: flex;
+	flex-direction: column;
+	gap: 17px;
+}
+
+.language {
+	display: flex;
+	gap: 15px;
+}
+
+.laguage__stars {
+	display: flex;
+	align-items: center;
+}
+
+.language__star {
+	width: 17px;
+	height: auto;
+}
