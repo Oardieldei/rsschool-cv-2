@@ -1,0 +1,11 @@
+@import url('./clean.css');
+@import url('./full.css');
+@import url('./left/ava.css');
+@import url('./left/about.css');
+@import url('./left/contacts.css');
+@import url('./left/languages.css');
+@import url('./left/skillstools.css');
+@import url('./left/other.css');
+@import url('./right/header.css');
+@import url('./right/main.css');
+@import url('./right/footer.css');
