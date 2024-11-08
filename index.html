@@ -268,11 +268,11 @@
 					<header>
 						<nav>
 							<ul class="nav__list">
-								<li class="nav__item"><a href="#contacts" class="nav__item_link">Contacts</a></li>
-								<li class="nav__item"><a href="#skills" class="nav__item_link">Skills</a></li>
-								<li class="nav__item"><a href="#wh" class="nav__item_link">Work history</a></li>
-								<li class="nav__item"><a href="#code" class="nav__item_link">Code example</a></li>
-								<li class="nav__item"><a href="#projects" class="nav__item_link">Projects</a></li>
+								<li class="nav__item"><a href="#contacts" class="nav__item_link" aria-label="Contacts">Contacts</a></li>
+								<li class="nav__item"><a href="#skills" class="nav__item_link" aria-label="Skills">Skills</a></li>
+								<li class="nav__item"><a href="#wh" class="nav__item_link" aria-label="Work">Work history</a></li>
+								<li class="nav__item"><a href="#code" class="nav__item_link" aria-label="Code">Code example</a></li>
+								<li class="nav__item"><a href="#projects" class="nav__item_link" aria-label="Projects">Projects</a></li>
 							</ul>
 						</nav>
 					</header>
@@ -486,13 +486,13 @@
 						</section>
 						<section class="code__wrapper"  id="code">
 							<h3 class="code__title">Code example</h3>
-							<pre class="code__content">const rgb = (r, g, b) => {
+							<pre class="code__content">const rgb = (r, g, b) =&gt; {
 	let arr = []
-	r > 255 ? arr.push(255) : r &lt; 0 ? arr.push(0) : arr.push(r)
-	g > 255 ? arr.push(255) : g &lt; 0 ? arr.push(0) : arr.push(g)
-	b > 255 ? arr.push(255) : b &lt; 0 ? arr.push(0) : arr.push(b)
+	r &gt; 255 ? arr.push(255) : r &lt; 0 ? arr.push(0) : arr.push(r)
+	g &gt; 255 ? arr.push(255) : g &lt; 0 ? arr.push(0) : arr.push(g)
+	b &gt; 255 ? arr.push(255) : b &lt; 0 ? arr.push(0) : arr.push(b)
 									
-	arr.forEach((x, i) => {    
+	arr.forEach((x, i) =&gt; {    
 		arr[i] = x.toString(16).toUpperCase()
 		if (arr[i].length == 1) arr[i] = '0' +arr[i]
 	})
